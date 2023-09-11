@@ -1,0 +1,44 @@
+.radiantthemes-button>.radiantthemes-button-main,
+.gdpr-notice .btn,
+.shop_single>.summary form.cart .button,
+.shop_single #review_form #respond input[type="submit"],
+.woocommerce button.button[name="apply_coupon"],
+.woocommerce button.button[name="update_cart"],
+.woocommerce button.button[name="update_cart"]:disabled,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+.woocommerce form.checkout_coupon .form-row .button,
+.woocommerce #payment #place_order,
+.woocommerce .return-to-shop .button,
+.woocommerce form .form-row input.button,
+.woocommerce table.shop_table.wishlist_table>tbody>tr>td.product-add-to-cart a,
+.widget-area>.widget.widget_price_filter .button,
+.post.style-default .entry-main .entry-extra .entry-extra-item .post-read-more .btn span,
+.page.style-default .entry-main .entry-extra .entry-extra-item .post-read-more .btn span,
+.tribe_events.style-default .entry-main .entry-extra .entry-extra-item .post-read-more .btn span,
+.testimonial.style-default .entry-main .entry-extra .entry-extra-item .post-read-more .btn span,
+.team.style-default .entry-main .entry-extra .entry-extra-item .post-read-more .btn span,
+.portfolio.style-default .entry-main .entry-extra .entry-extra-item .post-read-more .btn span,
+.case-studies.style-default .entry-main .entry-extra .entry-extra-item .post-read-more .btn span,
+.client.style-default .entry-main .entry-extra .entry-extra-item .post-read-more .btn span,
+.product.style-default .entry-main .entry-extra .entry-extra-item .post-read-more .btn span,
+.comments-area .comment-form>p button[type="submit"],
+.comments-area .comment-form>p button[type="reset"],
+.wraper_error_main.style-one .error_main .btn,
+.wraper_error_main.style-two .error_main .btn,
+.wraper_error_main.style-three .error_main_item .btn,
+.wraper_error_main.style-four .error_main .btn,
+.btn {
+  border-radius: 4px 4px 4px 4px !important;
+}
+
+.button-main {
+  width: 178px !important
+}
+
+.wraper_comingsoon_main.style-one {
+  background-color: #f7f7f7;
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url('./images/coming-soon-2-7.jpg');
+}
