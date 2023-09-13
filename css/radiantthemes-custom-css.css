@@ -895,11 +895,11 @@ section.rt-dark,
     text-align: left;
     margin: 0 !important;
     float: none;
-    height: 80px
-      /*width: 100%;
+    height: 80px;
+    /*width: 100%;
                 left: 0;
                 right: 0;*/
-      padding: 0 !important
+    padding: 0 !important
   }
 
   #header .logo>a {
@@ -15791,7 +15791,7 @@ input[type="checkbox"] {
   line-height: 30px;
   text-transform: capitalize;
   font-weight: 700 !important;
-  background: linear-gradient(to right, #FF3834 0%, #FF7133 100%) !important !important;
+  background: linear-gradient(to right, #FF3834 0%, #FF7133 100%) !important;
   border-radius: 4px !important;
   border: none !important;
 }
@@ -16305,12 +16305,13 @@ span.woocommerce-input-wrapper {
   -webkit-transition: all 0.3s ease-in-out;
 }
 
-.woocommerce .checkout_coupon input.input-text width: 100% !important;
-height: 55px;
-border: 1px solid #e7e7e7;
-padding: 0px 20px 0 10px !important;
-text-transform: capitalize;
-border-radius: 4px;
+.woocommerce .checkout_coupon input.input-text {
+  width: 100% !important;
+  height: 55px;
+  border: 1px solid #e7e7e7;
+  padding: 0px 20px 0 10px !important;
+  text-transform: capitalize;
+  border-radius: 4px;
 }
 
 .woocommerce form.checkout_coupon,
