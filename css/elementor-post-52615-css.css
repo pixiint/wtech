@@ -3277,7 +3277,11 @@ body.rtl .elementor-52615 .elementor-element.elementor-element-69fa6b2a {
   }
 
   .elementor-52615 .elementor-element.elementor-element-38a28f16 {
-    text-align: left
+    text-align: center
+  }
+
+  body:not(.rtl) .elementor-52615 .elementor-element.elementor-element-656576ed {
+    left: 0px
   }
 
   .elementor-52615 .elementor-element.elementor-element-2fae692e>.elementor-element-populated {

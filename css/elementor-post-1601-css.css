@@ -3564,6 +3564,14 @@ body.rtl .elementor-1601 .elementor-element.elementor-element-40486fb1 {
     padding: 0 0 20px
   }
 
+  .elementor-1601 .elementor-element.elementor-element-66b84847>.elementor-widget-wrap>.elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) {
+    text-align: center;
+  }
+
+  .elementor-52615 .elementor-element.elementor-element-40a9f0b5>.elementor-widget-wrap>.elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) {
+    text-align: center;
+  }
+
   .elementor-1601 .elementor-element.elementor-element-42a0d941>.elementor-element-populated {
     margin: 0 0 30px;
     --e-column-margin-right: 0px;
