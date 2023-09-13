@@ -108,7 +108,7 @@ var elementorFrontendConfig = {
   },
   "post": {
     "id": 52615,
-    "title": "Home%20Version%20Seventeen%20%E2%80%93%20Softek",
+    "title": "PixiTech - Software Consulting & Development",
     "excerpt": "",
     "featuredImage": false
   }
