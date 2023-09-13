@@ -277,7 +277,8 @@ header.rt-submenu-light.header-sticky.sticky-active .rt-header-inner {
   .elementor-1598 .elementor-element.elementor-element-d925982 {
     margin-top: 0;
     margin-bottom: 0;
-    padding: 10px 0 20px
+    padding: 10px 0 20px;
+    height: 75px;
   }
 
   .elementor-1598 .elementor-element.elementor-element-7bcadca>.elementor-widget-wrap>.elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) {

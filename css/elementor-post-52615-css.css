@@ -3277,7 +3277,11 @@ body.rtl .elementor-52615 .elementor-element.elementor-element-69fa6b2a {
   }
 
   .elementor-52615 .elementor-element.elementor-element-38a28f16 {
-    text-align: left
+    text-align: center
+  }
+
+  body:not(.rtl) .elementor-52615 .elementor-element.elementor-element-656576ed {
+    left: 0px
   }
 
   .elementor-52615 .elementor-element.elementor-element-2fae692e>.elementor-element-populated {
@@ -3304,7 +3308,7 @@ body.rtl .elementor-52615 .elementor-element.elementor-element-69fa6b2a {
   }
 
   .elementor-52615 .elementor-element.elementor-element-10892355 {
-    padding: 36px 15px 320px
+    padding: 36px 15px 36px
   }
 
   .elementor-52615 .elementor-element.elementor-element-40a9f0b5>.elementor-element-populated {
@@ -3562,5 +3566,25 @@ body.rtl .elementor-52615 .elementor-element.elementor-element-69fa6b2a {
   .elementor-52615 .elementor-element.elementor-element-788d9ce4>.elementor-widget-container {
     margin: 0;
     padding: 0
+  }
+
+  .elementor-element-6cf13b9e {
+    display: none;
+  }
+
+  .elementor-52615 .elementor-element.elementor-element-7c837517>.elementor-widget-container {
+    text-align: center;
+  }
+
+  .elementor-52615 .elementor-element.elementor-element-2e57fd31 .elementor-heading-title {
+    text-align: center;
+  }
+
+  .elementor-52615 .elementor-element.elementor-element-5839812d>.elementor-widget-container {
+    text-align: center;
+  }
+
+  body:not(.rtl) .elementor-52615 .elementor-element.elementor-element-2a39aca1 {
+    top: 425px !important;
   }
 }
