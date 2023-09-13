@@ -740,7 +740,6 @@
             selectors: {
               container: "> .elementor-shape-%s"
             },
-            svgURL: elementorFrontend.config.urls.assets + "shapes/"
           }
         }
         getDefaultElements() {
@@ -752,12 +751,6 @@
         isActive() {
           return elementorFrontend.isEditMode()
         }
-        getSvgURL(e, t) {
-          let n = this.getSettings("svgURL") + t + ".svg";
-          return elementor.config.additional_shapes && e in elementor.config.additional_shapes && (n =
-            elementor.config.additional_shapes[e], -1 < t.indexOf("-negative") && (n = n.replace(".svg",
-              "-negative.svg"))), n
-        }
         buildSVG(e) {
           const t = "shape_divider_" + e,
             n = this.getElementSettings(t),
@@ -765,10 +758,6 @@
           if (i.attr("data-shape", n), !n) return void i.empty();
           let s = n;
           this.getElementSettings(t + "_negative") && (s += "-negative");
-          const o = this.getSvgURL(n, s);
-          jQuery.get(o, (e => {
-            i.empty().append(e.childNodes[0])
-          })), this.setNegative(e)
         }
         setNegative(e) {
           this.elements["$" + e + "Container"].attr("data-negative", !!this.getElementSettings(
@@ -918,21 +907,6 @@
         }
       }
       t.default = AssetsLoader;
-      const n = elementorFrontendConfig.environmentMode.isScriptDebug ? "" : ".min";
-      AssetsLoader.assets = {
-        script: {
-          dialog: {
-            src: `${elementorFrontendConfig.urls.assets}lib/dialog/dialog${n}.js?ver=4.9.0`
-          },
-          "share-link": {
-            src: `${elementorFrontendConfig.urls.assets}lib/share-link/share-link${n}.js?ver=${elementorFrontendConfig.version}`
-          },
-          swiper: {
-            src: `${elementorFrontendConfig.urls.assets}lib/swiper/swiper${n}.js?ver=5.3.6`
-          }
-        },
-        style: {}
-      }
     },
     8646: (e, t, n) => {
       Object.defineProperty(t, "__esModule", {
@@ -1197,7 +1171,7 @@
       t.default = YoutubeLoader
     },
     59: (e, t, n) => {
-      n.p = elementorFrontendConfig.urls.assets + "js/"
+      n.p = elementorFrontendConfig.urls.assets + "javascript/"
     },
     4375: (e, t) => {
       Object.defineProperty(t, "__esModule", {

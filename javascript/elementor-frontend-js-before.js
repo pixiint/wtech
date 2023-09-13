@@ -90,7 +90,7 @@ var elementorFrontendConfig = {
     "admin-top-bar": true
   },
   "urls": {
-    "assets": "https:\/\/softek.radiantthemes.com\/wp-content\/plugins\/elementor\/assets\/"
+    "assets": ""
   },
   "settings": {
     "page": [],
