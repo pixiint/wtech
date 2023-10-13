@@ -19643,7 +19643,7 @@ course-style-one.courses_section {
   background: #fff;
   box-shadow: 2px 5px 20px 0 rgba(23.00000000000011, 22.000000000000007, 138.99999999999994, .08);
   padding: 20px 30px;
-  border-left: 5px solid #1e407c;
+  border-left: 5px solid #080c56;
   overflow: hidden
 }
 
@@ -21071,7 +21071,7 @@ course-style-one.courses_section {
   text-transform: capitalize;
   font-weight: 500;
   font-size: 16px;
-  color: #1e407c;
+  color: #080c56;
   line-height: 28px
 }
 
@@ -21180,7 +21180,7 @@ course-style-one.courses_section {
 }
 
 .rt-card:hover .rt-card h6 {
-  color: #1e407c
+  color: #080c56
 }
 
 .rt-card a {
