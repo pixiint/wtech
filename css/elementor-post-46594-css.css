@@ -17,10 +17,18 @@
 
 .elementor-46594 .elementor-element.elementor-element-89b26e5:not(.elementor-motion-effects-element-type-background),
 .elementor-46594 .elementor-element.elementor-element-89b26e5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: 24% auto;
+}
+
+.elementor-element.elementor-element-10892355:not(.elementor-motion-effects-element-type-background),
+.elementor-element.elementor-element-10892355>.elementor-motion-effects-container>.elementor-motion-effects-layer {
   background-image: url("../images/Home5-11-1.webp");
   background-position: center left;
   background-repeat: no-repeat;
-  background-size: 24% auto
+  /* background-size: 24% auto; */
+  background-size: contain;
 }
 
 .elementor-46594 .elementor-element.elementor-element-89b26e5>.elementor-background-overlay {
