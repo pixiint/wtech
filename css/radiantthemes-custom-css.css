@@ -23828,6 +23828,20 @@ a:hover.transparent-masionary-btn-hover {
   background: #ff7133;
 }
 
+.featurebox-hm2 .elementor-element-populated:after {
+  content: '';
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  position: absolute;
+  left: auto;
+  right: 0;
+  /* z-index: -1; */
+  -webkit-transition: width .6s cubic-bezier(.25, .8, .25, 1) 0s;
+  transition: width .6s cubic-bezier(.25, .8, .25, 1) 0s;
+  background: #ff7133;
+}
+
 .icon-moving-top .elementor-element-populated:hover::after {
   width: 100%;
   left: 0;
