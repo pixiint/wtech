@@ -44,7 +44,7 @@
   transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
   margin-top: 0;
   margin-bottom: 0;
-  padding: 112px 0 0
+  padding: 0
 }
 
 .elementor-46594 .elementor-element.elementor-element-7fa549f>.elementor-widget-wrap>.elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) {
@@ -117,7 +117,7 @@
 
 .elementor-46594 .elementor-element.elementor-element-eeb5661 {
   transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
-  padding: 0 0 140px;
+  padding: 0 0 50px;
   z-index: 9
 }
 
