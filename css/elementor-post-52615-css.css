@@ -3587,7 +3587,8 @@ body.rtl .elementor-52615 .elementor-element.elementor-element-69fa6b2a {
     top: 60px;
     display: flow;
     width: 300px;
-    height: 245px;
+    height: 200px;
+    z-index: 2;
   }
 
   .elementor-52615 .elementor-element.elementor-element-7c837517>.elementor-widget-container {
