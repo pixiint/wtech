@@ -4587,45 +4587,47 @@ button.swiper-pagination-bullet {
   }
 
   .elementor-hidden-mobile-2 .elementor-widget-container {
-    height: 235px;
+    height: 210px;
   }
 
   .elementor-hidden-mobile-2 .elementor-widget-container img {
-    top: 50px;
+    top: 73px;
     position: absolute;
     z-index: 9;
     left: 0px;
+    background-color: #349ed2;
   }
 }
 
 @media (max-width:541px) {
   .elementor-hidden-mobile-2 .elementor-widget-container {
-    height: 384px;
+    height: 330px;
   }
 }
 
 @media (max-width:420px) {
   .elementor-hidden-mobile-2 .elementor-widget-container {
-    height: 260px;
+    height: 225px;
   }
 }
 
 @media (max-width:391px) {
   .elementor-hidden-mobile-2 .elementor-widget-container {
-    height: 235px;
+    height: 210px;
   }
 }
 
 @media (max-width:281px) {
   .elementor-hidden-mobile-2 .elementor-widget-container {
-    height: 150px;
+    height: 135px;
   }
 
   .elementor-hidden-mobile-2 .elementor-widget-container img {
-    top: 60px;
+    top: 73px;
     position: absolute;
     z-index: 9;
     left: 0px;
+    background-color: #349ed2;
   }
 }
 
